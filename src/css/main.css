@@ -1,0 +1,31 @@
+@import url("./navbar.css");
+@import url("./section1.css");
+@import url("./section2.css");
+@import url("./section3.css");
+@import url("./section4.css");
+@import url("./section5.css");
+@import url("./section6.css");
+@import url("./footer.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+:root {
+    --maincolor: rgba(195, 155, 116);
+}
+
+.active_navbar {
+    background-color: rgba(195, 155, 116);
+    color: #fff;
+}
+
+.active_navbar_login {
+    background-color: black;
+}

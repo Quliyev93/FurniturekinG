@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allerta+Stencil&family=Dancing+Script:wght@400..700&family=Metal+Mania&family=Nabla&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ribeye+Marrow&family=Rubik+Dirt&family=Rubik+Puddles&family=Sniglet:wght@400;800&family=Spicy+Rice&display=swap');
+
+
+.section1 {
+    background-image: url("../assest/images/furniturebg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.section1_content {
+    padding: 250px 150px;
+    width: 750px;
+    height: 350px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.section1_content h1 {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section1_content p {
+    color: #fff;
+    font-family: "Sniglet", serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.section1_content .btn {
+    padding: 5px 10px;
+    background-color: var(--maincolor);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "Sniglet", serif;
+}
+
+.section1_content .btn a {
+    color: #fff;
+}
+
+.section1_content .btn:hover {
+    background-color: rgb(208, 186, 165);
+}
+
+
+h1 u {
+    color: var(--maincolor);
+    background: linear-gradient(to right, #fff, var(--maincolor), #fff, var(--maincolor), #fff);
+    background-clip: text;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 3s linear infinite;
+}
+
+@keyframes text {
+    to {
+        background-position: 200%;
+    }
+}
+
+
+@media only screen and (max-width:950px) {
+
+    .section1_content h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:660px) {
+    .section1_content h1 {
+        font-size: 30px;
+    }
+
+    .section1 {
+        overflow: hidden;
+    }
+
+    .section1_content {
+        width: 600px;
+
+        margin-left: -80px;
+    }
+}
