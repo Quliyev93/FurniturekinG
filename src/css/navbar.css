@@ -22,7 +22,6 @@
     font-style: italic;
     letter-spacing: 2px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
 }
 
 .nav_right {
@@ -196,5 +195,11 @@
     .nav {
         width: 80%;
         margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .nav_left h1 {
+        font-size: 18px;
     }
 }
