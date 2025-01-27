@@ -11,6 +11,6 @@ menuBtn.addEventListener("click", () => {
 });
 
 closeMenu.addEventListener("click", () => {
-    menuContent.style.display = "none"
-    login.style.display = "inline"
+    menuContent.style.display = "none";
+    login.style.display = "block"
 })  

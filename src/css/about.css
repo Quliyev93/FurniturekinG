@@ -28,6 +28,8 @@
 
 
 
+
+
 .about {
     display: flex;
     flex-wrap: wrap;
@@ -114,5 +116,16 @@
     .about_right {
         width: 400px;
         height: 300px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .about_left {
+        width: 200px;
+        margin-left: 0;
+    }
+
+    .about_right {
+        margin-right: 0;
     }
 }

@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 110vh;
+    min-height: 110vh;
     background-image: url("../assest/images/loginbg3.jpeg");
     background-size: 160%;
     background-repeat: no-repeat;

@@ -137,4 +137,8 @@
         width: 360px;
         height: 230px;
     }
+
+    .section3_left .text1 {
+        font-size: 20px;
+    }
 }

@@ -22,6 +22,7 @@
 .section2_part {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     background-color: rgb(255, 245, 235);
     padding: 5px 10px;
     border-radius: 20px;
